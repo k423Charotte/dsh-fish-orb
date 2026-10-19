@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Fish Orb",
+    "description": "A floating orb inside the DSH page: take one sentence, dispatch long tasks to a background session, and collect the results. Page-only; it does not touch desktop control."
+  }
+}

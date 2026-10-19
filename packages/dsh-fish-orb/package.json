@@ -1,0 +1,53 @@
+{
+  "name": "dsh-fish-orb",
+  "version": "0.1.0",
+  "description": "小肥鱼球：DSH 页面内的悬浮球 —— 接一句话、派长任务、把结果收回来。不碰桌面控制。",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "floating-orb",
+    "agent"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "files": [
+    "lib",
+    "locale",
+    "docs",
+    "tools",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node tools/smoke-test.mjs"
+  },
+  "engines": {
+    "node": ">=22",
+    "dsh": ">=0.2.0-rc.2"
+  }
+}
