@@ -46,6 +46,9 @@
   "scripts": {
     "test": "node tools/smoke-test.mjs"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "engines": {
     "node": ">=22",
     "dsh": ">=0.2.0-rc.2"
