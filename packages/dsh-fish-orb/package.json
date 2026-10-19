@@ -1,8 +1,16 @@
 {
   "name": "dsh-fish-orb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "小肥鱼球：DSH 页面内的悬浮球 —— 接一句话、派长任务、把结果收回来。不碰桌面控制。",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k423Charotte/dsh-fish-orb.git"
+  },
+  "homepage": "https://github.com/k423Charotte/dsh-fish-orb#readme",
+  "bugs": {
+    "url": "https://github.com/k423Charotte/dsh-fish-orb/issues"
+  },
   "keywords": [
     "dsh",
     "dsh-plugin",
