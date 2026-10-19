@@ -1,6 +1,6 @@
 {
   "name": "dsh-fish-orb",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "小肥鱼球：DSH 页面内的悬浮球 —— 接一句话、派长任务、把结果收回来。不碰桌面控制。",
   "license": "MIT",
   "repository": {

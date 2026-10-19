@@ -1,5 +1,13 @@
 # 更新日志 · dsh-fish-orb
 
+## 0.1.2（2026-10-19）
+
+- README 重写**安装章节**：从"只写一句 install_bundle"变成三种可照着做的路径
+  （npm / GitHub clone / `dsh plugin add`，最后一条明确标注**未验证**）
+- README 补上 0.1.0 之后新增的能力：定时任务、划词工具条、右键会话行、自定义图片、贴边吸附
+- README 的用法、状态文件示例同步更新（`size` 44–120、`avatar`、`schedules`）
+- 无代码变更
+
 ## 0.1.1（2026-10-19）
 
 - 补 `repository` / `homepage` / `bugs` 字段：npm 页面与 README 能点回 GitHub 仓库
